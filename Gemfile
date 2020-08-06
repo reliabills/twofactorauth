@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 # Dependencies are bundled with the github-pages gem
-gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages', '>= 203', group: :jekyll_plugins
 
 group :test do
   gem 'diff-lcs', platforms: :mswin
