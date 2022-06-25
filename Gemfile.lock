@@ -18,7 +18,7 @@ GEM
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.5)
-    diffy (3.3.0)
+    diffy (3.4.2)
     dnsruby (1.61.3)
       addressable (~> 2.5)
     em-websocket (0.5.1)
@@ -276,7 +276,7 @@ PLATFORMS
 
 DEPENDENCIES
   diff-lcs
-  diffy
+  diffy (>= 3.4.1)
   fastimage
   github-pages
   html-proofer
@@ -284,3 +284,6 @@ DEPENDENCIES
   kwalify
   rake
   rubocop
+
+BUNDLED WITH
+   2.1.4
